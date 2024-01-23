@@ -29,6 +29,7 @@ img {
     width: 100%;
     display: block;
     aspect-ratio: 5/3;
+    border-radius: .25rem;
 }
 
 .debug header {
@@ -51,6 +52,8 @@ img {
     text-align: end;
 }
 
+
+
 /* #region Main  */
 
 #site_main {
@@ -60,11 +63,6 @@ img {
     justify-content: center;
     align-items: center;
 }
-
-/* .participants{
-    width: 90%;
-    background-color: #4bc800;
-} */
 
 .container {
     max-width: 1850px;
@@ -83,9 +81,6 @@ img {
     padding: .4rem .2rem;
 }
 
-/* .single_participant {
-    background-color: #794ba9;
-} */
 
 /* #endregion Main  */
 
@@ -96,6 +91,7 @@ img {
     background-color: var(--zoom-dark);
     width: 100%;
     min-height: 10vh;
+    /* height: 80px; */
     position: fixed;
     bottom: 0;
     z-index: 1;
