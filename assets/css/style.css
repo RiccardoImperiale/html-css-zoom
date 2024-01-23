@@ -33,7 +33,6 @@ img {
     border-radius: .25rem;
 }
 
-
 /* Header -----------------------------> */
 
 #site_header {
@@ -44,7 +43,6 @@ img {
     padding: .5rem;
     text-align: end;
 }
-
 
 /* #region Main  */
 
@@ -93,7 +91,6 @@ img {
 }
 
 /* #endregion Main  */
-
 
 /* #region Footer  */
 
@@ -151,6 +148,16 @@ img {
     align-items: center;
     flex-direction: column;
     gap: .5rem;
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.footer_icon:hover {
+    background-color: var(--zoom-secondary);
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .fa-share-from-square {
