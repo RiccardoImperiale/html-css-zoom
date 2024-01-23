@@ -1,0 +1,71 @@
+:root {
+    --zoom-dark: #222222;
+    --zoom-secondary: #4a4a4a;
+    --zoom-success: #4bc800;
+    --zoom-danger: #dc2117;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: var(--zoom-secondary);
+    border: none;
+    border-radius: .25rem;
+    color: white;
+    padding: .25rem .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.debug header {
+    background-color: #fd2323;
+}
+
+.debug main {
+    background-color: #4e4e4e;
+}
+
+.debug footer {
+    background-color: #794ba9;
+}
+
+
+
+header {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: .5rem;
+    text-align: end;
+}
+
+main {
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.participants{
+    height: 95%;
+    width: 90%;
+    background-color: #4bc800;
+}
