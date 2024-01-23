@@ -25,6 +25,12 @@ button {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 5/3;
+}
+
 .debug header {
     background-color: #fd2323;
 }
@@ -33,14 +39,11 @@ button {
     background-color: #4e4e4e;
 }
 
-.debug footer {
-    background-color: #794ba9;
-}
 
+/* Header -----------------------------> */
 
-
-header {
-    height: 10vh;
+#site_header {
+    height: 5vh;
     position: fixed;
     top: 0;
     width: 100%;
@@ -48,24 +51,57 @@ header {
     text-align: end;
 }
 
-main {
-    margin-top: 10vh;
-    height: 80vh;
+/* #region Main  */
+
+#site_main {
+    margin-top: 5vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer {
+/* .participants{
+    width: 90%;
+    background-color: #4bc800;
+} */
+
+.container {
+    max-width: 1850px;
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.2rem;
+}
+
+.col {
+    width: calc(100% / 7);
+    padding: .4rem .2rem;
+}
+
+/* .single_participant {
+    background-color: #794ba9;
+} */
+
+/* #endregion Main  */
+
+
+/* #region Main  */
+
+#site_footer {
+    background-color: var(--zoom-dark);
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     position: fixed;
     bottom: 0;
     z-index: 1;
 }
 
-.participants{
-    height: 95%;
-    width: 90%;
-    background-color: #4bc800;
-}
+/* #endregion Main  */
+
+
+
