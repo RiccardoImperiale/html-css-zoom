@@ -16,9 +16,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h6 {
-    font-weight: 100;
-}
 
 button {
     background-color: var(--zoom-secondary);
@@ -63,7 +60,8 @@ img {
 
 #site_main {
     margin-top: 5vh;
-    height: 85vh;
+    /* height: 85vh; */
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,8 +111,8 @@ img {
     background-color: var(--zoom-dark);
     color: white;
     width: 100%;
-    min-height: 10vh;
-    /* height: 80px; */
+    /* min-height: 10vh; */
+    height: 80px;
     position: fixed;
     bottom: 0;
     padding-left: 1rem;
@@ -141,7 +139,8 @@ img {
 .right_buttons {
     background-color: var(--zoom-secondary);
     width: 10%;
-    height: 10vh;
+    /* height: 10vh; */
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -174,7 +173,9 @@ img {
     color: var(--zoom-danger);
 }
 
-
+.icon_text, .end_meeting {
+    font-size: .7rem;
+}
 
 
 /* #endregion Footer  */
