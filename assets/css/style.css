@@ -13,6 +13,7 @@
 
 body {
     background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button {
@@ -81,6 +82,23 @@ img {
     padding: .4rem .2rem;
 }
 
+.single_participant{
+   position: relative;
+}
+
+.participant_name {
+    position: absolute;
+    left: 0;
+    bottom: .3rem;
+    background-color: #5a5a5aa4;
+    padding: .2rem .25rem;
+    color: white;
+    font-size: .8rem;
+}
+
+.participant_name span {
+    font-size: .7rem;
+}
 
 /* #endregion Main  */
 
