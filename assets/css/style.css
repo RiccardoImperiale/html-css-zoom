@@ -16,6 +16,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h6 {
+    font-weight: 100;
+}
+
 button {
     background-color: var(--zoom-secondary);
     border: none;
@@ -71,7 +75,7 @@ img {
     margin: auto;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: -0.2rem;
@@ -82,8 +86,8 @@ img {
     padding: .4rem .2rem;
 }
 
-.single_participant{
-   position: relative;
+.single_participant {
+    position: relative;
 }
 
 .participant_name {
@@ -103,19 +107,66 @@ img {
 /* #endregion Main  */
 
 
-/* #region Main  */
+/* #region Footer  */
 
 #site_footer {
     background-color: var(--zoom-dark);
+    color: white;
     width: 100%;
     min-height: 10vh;
     /* height: 80px; */
     position: fixed;
     bottom: 0;
-    z-index: 1;
+    z-index: 0;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* #endregion Main  */
+.left_buttons {
+    width: 20%;
+    display: flex;
+    gap: 2rem;
+}
+
+.center_buttons {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-inline: 5rem;
+}
+
+.right_buttons {
+    background-color: #002fc8;
+    width: 10%;
+}
+
+.icon_button {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.footer_icon i {
+    font-size: 1.5rem;
+}
+
+.footer_icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.fa-share-from-square {
+    color: var(--zoom-success);
+}
 
 
 
+
+/* #endregion Footer  */
