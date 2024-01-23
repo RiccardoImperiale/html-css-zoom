@@ -16,7 +16,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 button {
     background-color: var(--zoom-secondary);
     border: none;
@@ -34,14 +33,6 @@ img {
     border-radius: .25rem;
 }
 
-.debug header {
-    background-color: #fd2323;
-}
-
-.debug main {
-    background-color: #4e4e4e;
-}
-
 
 /* Header -----------------------------> */
 
@@ -53,7 +44,6 @@ img {
     padding: .5rem;
     text-align: end;
 }
-
 
 
 /* #region Main  */
