@@ -36,44 +36,42 @@ img {
 /* Header -----------------------------> */
 
 #site_header {
-    height: 5vh;
+    height: 40px;
     position: fixed;
     top: 0;
     width: 100%;
     padding: .5rem;
     text-align: end;
+    z-index: 1;
+    background-color: black;
 }
 
 /* #region Main  */
 
 #site_main {
-    margin-top: 5vh;
-    /* height: 85vh; */
-    height: 90vh;
+    margin-top: 40px;
+    height: calc(100vh - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
 }
 
-.container {
+.participants {
     max-width: 1850px;
     width: 90%;
-    margin: auto;
-}
-
-.row {
     display: flex;
-    flex-wrap: wrap;
-    margin: -0.2rem;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
-.col {
-    width: calc(100% / 7);
-    padding: .4rem .2rem;
+img {
+    width: 230px;
 }
 
 .single_participant {
     position: relative;
+    padding: .4rem .2rem;
 }
 
 .participant_name {
